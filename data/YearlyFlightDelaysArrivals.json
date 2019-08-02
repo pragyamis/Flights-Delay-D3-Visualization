@@ -1,0 +1,122 @@
+[
+ {
+   "Year": "2010",
+   "Ontime": 2096035,
+   "OntimePer": "79.81%",
+   "Delays": 466350,
+   "DelayedPer": "17.76%",
+   "Cancelled": 57717,
+   "CancelledPer": "2.20%",
+   "Diverted": 6316,
+   "Flight Operations": 2626418,
+   "Operation": "Arrival"
+ },
+ {
+   "Year": "2011",
+   "Ontime": 1918094,
+   "OntimePer": "76.59%",
+   "Delays": 511002,
+   "DelayedPer": "20.41%",
+   "Cancelled": 68901,
+   "CancelledPer": "2.75%",
+   "Diverted": 6242,
+   "Flight Operations": 2504239,
+   "Operation": "Arrival"
+ },
+ {
+   "Year": "2012",
+   "Ontime": 2104374,
+   "OntimePer": "84.30%",
+   "Delays": 360463,
+   "DelayedPer": "14.44%",
+   "Cancelled": 26615,
+   "CancelledPer": "1.07%",
+   "Diverted": 4776,
+   "Flight Operations": 2496228,
+   "Operation": "Arrival"
+ },
+ {
+   "Year": "2013",
+   "Ontime": 2077611,
+   "OntimePer": "79.40%",
+   "Delays": 490102,
+   "DelayedPer": "18.73%",
+   "Cancelled": 43520,
+   "CancelledPer": "1.66%",
+   "Diverted": 5379,
+   "Flight Operations": 2616612,
+   "Operation": "Arrival"
+ },
+ {
+   "Year": "2014",
+   "Ontime": 1783676,
+   "OntimePer": "74.66%",
+   "Delays": 519682,
+   "DelayedPer": "21.75%",
+   "Cancelled": 79494,
+   "CancelledPer": "3.33%",
+   "Diverted": 6234,
+   "Flight Operations": 2389086,
+   "Operation": "Arrival"
+ },
+ {
+   "Year": "2015",
+   "Ontime": 1867232,
+   "OntimePer": "78.27%",
+   "Delays": 458474,
+   "DelayedPer": "19.22%",
+   "Cancelled": 53715,
+   "CancelledPer": "2.25%",
+   "Diverted": 6194,
+   "Flight Operations": 2385615,
+   "Operation": "Arrival"
+ },
+ {
+   "Year": "2016",
+   "Ontime": 1897646,
+   "OntimePer": "82.87%",
+   "Delays": 357236,
+   "DelayedPer": "15.60%",
+   "Cancelled": 29839,
+   "CancelledPer": "1.30%",
+   "Diverted": 5105,
+   "Flight Operations": 2289826,
+   "Operation": "Arrival"
+ },
+ {
+   "Year": "2017",
+   "Ontime": 1824076,
+   "OntimePer": "79.17%",
+   "Delays": 439424,
+   "DelayedPer": "19.07%",
+   "Cancelled": 35162,
+   "CancelledPer": "1.53%",
+   "Diverted": 5281,
+   "Flight Operations": 2303943,
+   "Operation": "Arrival"
+ },
+ {
+   "Year": "2018",
+   "Ontime": 2335959,
+   "OntimePer": "80.12%",
+   "Delays": 515993,
+   "DelayedPer": "17.70%",
+   "Cancelled": 56831,
+   "CancelledPer": "1.95%",
+   "Diverted": 6628,
+   "Flight Operations": 2915411,
+   "Operation": "Arrival"
+ },
+ {
+   "Year": "2019",
+   "Ontime": 2352364,
+   "OntimePer": "78.47%",
+   "Delays": 565777,
+   "DelayedPer": "18.87%",
+   "Cancelled": 72045,
+   "CancelledPer": "2.40%",
+   "Diverted": 7461,
+   "Flight Operations": 2997647,
+   "Operation": "Arrival"
+ }
+]
