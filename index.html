@@ -100,8 +100,10 @@ padding: 0.75rem 0.5rem;
   </div>
     <div class="section">
         <h1>US Flight Delays Across Last 10 years</h1><br/><br/><br/><br/>
-        <p style="text-align:center;">
-        <!--IMG class="timeline" SRC="img/timeline.PNG" ALT="flight delay" WIDTH=1000 HEIGHT=200 --></p>
+         <h3 style="text-align:center;"> Choose Flight Operation to toggle : 
+            <input type="radio" name="arrivals" value="0"  onclick="makeYearsDelayPlot('0');" checked> Arrival
+            <input type="radio" name="arrivals" value="1" onclick="makeYearsDelayPlot('1');" > Departure
+        </h3>
         <div class="plot">
                
                 <p style="text-align:center;">
@@ -185,10 +187,13 @@ padding: 0.75rem 0.5rem;
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
 <script src="https://d3js.org/d3.v5.js"></script>
     <script>      
-        async function makeYearsDelayPlot() {
-                           const data = await d3.json('data/YearlyFlightDelaysArrivals.json');
-                           const svg = d3.select('#yearsPlot');                
-   
+        async function makeYearsDelayPlot(input) {
+                           const svg = d3.select('#yearsPlot');               
+                           file = 'data/YearlyFlightDelaysArrivals.json';          
+                           if (input == "1") {  file = 'data/YearlyFlightDelaysDeparture.json';}
+                           else   {  file = 'data/YearlyFlightDelaysArrivals.json';  }
+                           svg.selectAll("*").remove();
+                           const data =await d3.json(file);
                            const width = Number(svg.attr('width'));
                            const height = Number(svg.attr('height'));
                            const margin = ({top: 50, right: 50, bottom: 30, left: 50});
@@ -359,7 +364,7 @@ padding: 0.75rem 0.5rem;
                     }         
     </script>  
     <script>
-       makeYearsDelayPlot();
+       makeYearsDelayPlot('0');
        makeAirlinesDelaysPlot();       
     </script>
     
