@@ -3,6 +3,7 @@
 <h1>CS 498: Data Visualization Project Report Air Flights Delays  </h1>
 <h2>Submitted By: Pragya Mishra </h2>
 <a href = "https://pragyamis.github.io/Flights-Delay-D3-Visualization/"> Click here for visualization </a>
+</br>
 <b>What is the message you are trying to communicate with the narrative visualization? </b>
 
 This project provided great opportunity to learn new aspects of data visualization. This narrative visualization is about answering few questions about US Flights delays:
